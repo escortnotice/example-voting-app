@@ -8,7 +8,7 @@ import json
 option_a = os.getenv('OPTION_A', "Cats")
 option_b = os.getenv('OPTION_B', "Dogs")
 hostname = socket.gethostname()
-redis_password = os.getenv('REDIS_PASSWORD', "DOGS")
+redis_password = os.getenv('REDIS_PASSWORD', "redis_password")
 
 app = Flask(__name__)
 
